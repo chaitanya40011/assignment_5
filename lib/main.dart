@@ -27,7 +27,7 @@ class MyAppState extends State<MyApp> {
           backgroundColor: backgroundColor,
 
         body: Center(
-        child:Row(
+        child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             ElevatedButton(
@@ -35,7 +35,7 @@ class MyAppState extends State<MyApp> {
               child: const Text('Customer'),
             ),
             ElevatedButton(
-              onPressed: () => changeColor(Colors.red),
+              onPressed: () => changeColor(Colors.redAccent),
               child: const Text('Agent'),
             ),
             ElevatedButton(
